@@ -35,4 +35,4 @@ jobs:
       run: |
         docker build -t fadouabouchrite/inventory_service .
         echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
-        docker push oussabitarek/inventory_service
+        docker push fadouabouchrite/inventory_service
